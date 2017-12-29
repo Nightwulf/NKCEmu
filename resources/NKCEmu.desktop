@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=Emulator for the NDR-Klein-Computer (NKC)
+Comment[de]=Emulator für den NDR-Klein-Computer (NKC)
+Encoding=UTF-8
+Exec='/usr/bin/nkcemu' -l -s -b/usr/share/nkcemu/full.bin
+GenericName=
+GenericName[de]=
+Icon=/usr/share/icons/hicolor/64x64/apps/nkcemu.png
+MimeType=
+Name=NKCEmu
+Name[de]=NKCEmu
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application;Emulatoren
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

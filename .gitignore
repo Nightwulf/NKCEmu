@@ -1,0 +1,6 @@
+.kdev4/
+Makefile
+NKCEmu.kdev4
+cmake_install.cmake
+sim.h.debug
+sim.h.fast
