@@ -4,3 +4,7 @@ NKCEmu.kdev4
 cmake_install.cmake
 sim.h.debug
 sim.h.fast
+CMakeCache.txt                                                                         
+CMakeFiles/                                                                            
+build/                                                                                 
+nkcemu 

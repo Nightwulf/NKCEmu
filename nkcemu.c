@@ -231,8 +231,8 @@ int main(int argc, char *argv[])
         }
     }
     putchar('\n');
-    puts("NDR-Klein-Computer Simulator V0.6");
-    puts("=================================");
+    puts("NDR-Klein-Computer Simulator V0.6.1");
+    puts("===================================");
     puts("based on Z80 emulator 'z80pack'");
     puts("by Udo Munk");
     putchar('\n');

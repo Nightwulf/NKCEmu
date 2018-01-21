@@ -498,7 +498,7 @@ void gdp64_p70_out(BYTE b)
     /* short vector command? */
     if (b>=128)
     {
-        char dirMul[][2]={{1,0},{1,1},{0,1},{-1,1},{0,-1},{1,-1},{-1,0},{-1,-1}};
+        signed char dirMul[][2]={{1,0},{1,1},{0,1},{-1,1},{0,-1},{1,-1},{-1,0},{-1,-1}};
         BYTE dx=(b & 0x60) >>5;
         BYTE dy=((b & 0x18) >>3);
         BYTE dir=(b & 7);
@@ -507,6 +507,7 @@ void gdp64_p70_out(BYTE b)
             pen=fg32;
         else
             pen=bg32;
+	
         DrawLine(penX, 255-penY, penX+dx*dirMul[dir][0], 255-(penY+dy*dirMul[dir][1]));
         contentChanged=1;
         penX=penX+dx*dirMul[dir][0];
